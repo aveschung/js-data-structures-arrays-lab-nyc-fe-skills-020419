@@ -11,4 +11,5 @@ function appendDriver(name) {
   let driversCopy = drivers.slice()
   driversCopy.push(name)
   
+return driversCopy 
 }
