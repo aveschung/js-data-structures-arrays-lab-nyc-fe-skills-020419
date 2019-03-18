@@ -9,4 +9,6 @@ function destructivelyRemoveLastDriver() {
 } 
 function appendDriver(name) {
   let driversCopy = drivers.slice
+  driversCopy.push(name)
+
 }
