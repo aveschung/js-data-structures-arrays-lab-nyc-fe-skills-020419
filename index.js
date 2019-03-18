@@ -7,4 +7,6 @@ function destructivelyAppendDriver(name) {
 function destructivelyRemoveLastDriver() {
   drivers.pop()
 } 
-function 
+function appendDriver(name) {
+  let driversCopy = 
+}
