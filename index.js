@@ -4,6 +4,6 @@ let drivers = ["Milo", "Otis", "Garfield"]
 function destructivelyAppendDriver(name) {
   drivers.push(name)
 }
-function destructivelyRemoveLastDriver()
+function destructivelyRemoveLastDriver() {
   drivers.pop()
   
