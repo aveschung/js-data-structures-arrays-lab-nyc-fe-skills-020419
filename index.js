@@ -8,5 +8,5 @@ function destructivelyRemoveLastDriver() {
   drivers.pop()
 } 
 function appendDriver(name) {
-  let driversCopy = 
+  let driversCopy = drivers.slice
 }
