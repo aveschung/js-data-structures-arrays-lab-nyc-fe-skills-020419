@@ -6,7 +6,6 @@ describe('index.js', function () {
       expect(drivers).to.have.ordered.members(["Milo", "Otis", "Garfield"]);
     });
     
-    
 
     it('is declared with const', function () {
       expect(function () { drivers = []; }).to.throw(TypeError);
