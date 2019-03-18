@@ -13,4 +13,6 @@ function appendDriver(name) {
   
 return driversCopy 
 }
-function 
+function removeLastDriver() {
+  
+}
